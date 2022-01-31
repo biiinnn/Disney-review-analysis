@@ -7,7 +7,7 @@
 
 ### dataset 설명
 - 파리, 캘리포니아, 홍콩 디즈니랜드 이용객들이 Trip Advisor를 통해 남긴 약 42,000개의 리뷰 데이터
--  column 설명
+- column 설명
   - Review_ID
   - Rating: 방문객이 입력한 전반적인 평점 (불만족이면 1, 만족이면 5)
   - Year_Month: 방문 시기 (년도-월)
@@ -39,9 +39,9 @@
     - 월별 시각화
 
 3.  감성 분석
-  - 4~5점: 긍정, 3점: 중립, 1~2점: 부정 으로 분류
+  - 4-5점: 긍정, 3점: 중립, 1-2점: 부정 으로 분류
   - wordcloud 로 단어 시각화
-  - 새로운 감성 점수 부여 => 감성 예측
+  - 새로운 감성 점수 부여 ⇒ 감성 예측
     - Vader, Affinn 감성 분류기 사용
     - 전체 리뷰 8:2로 train, test set 분류
     - multi-class classifier로 Decision Tree Classifier, Random Forest Classifier 사용 (max_depth =100)
