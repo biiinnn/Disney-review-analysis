@@ -2,7 +2,6 @@
 2021 Spring - Project(Disney Reviews) in Data Processing Language Class - SeoulTech, Department of Data Science
 
 ## 디즈니랜드 리뷰에 대한 EDA 및 감성분석
-
 - Kaggle: https://www.kaggle.com/arushchillar/disneyland-reviews/tasks?taskId=3225
 
 ### dataset 설명
@@ -24,7 +23,6 @@
     - Tokenize
     - Stemming
     - Stop word 제거
-
 2. EDA & Visualization
   - 평점 별 비교
     - 전체 평점 분포 시각화
@@ -37,7 +35,6 @@
   - 방문 시기 별 비교
     - 년도별 시각화
     - 월별 시각화
-
 3.  감성 분석
   - 4-5점: 긍정, 3점: 중립, 1-2점: 부정 으로 분류
   - wordcloud 로 단어 시각화
